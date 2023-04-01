@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700;800&family=Poppins&display=swap');
+
+.company {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 233.339px 52.5833px 52.5833px;
+    gap: 52.58px;
+    isolation: isolate;
+
+    position: absolute;
+    width: 567.46px;
+    height: 384.52px;
+    left: 486px;
+    top: 150px;
+
+    /* Color/Bg/White 900
+
+98% Brightness
+*/
+    background: #FFFFFF;
+    border-radius: 35.0556px;
+}
+
+.comanyname {
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30.6736px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+
+    color: #4D4D4D;
+
+
+}
+
+
+
+.description {
+    position: absolute;
+    width: 1476px;
+    height: 278px;
+    left: 62px;
+    top: 600px;
+    margin-top: 55.55px;
+
+}
+
+.description h1 {
+    position: absolute;
+    width: 1506px;
+    height: 278px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    /* or 40px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.08em;
+
+    color: #666666;
+
+}
+
+.details {
+
+    position: absolute;
+    width: 669.55px;
+    height: 603.06px;
+    left: 511px;
+    top: 949px;
+
+}
+
+
+
+.detailsname h1 {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24.6736px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    justify-content: center;
+    color: #4D4D4D;
+
+
+}
+
+.property {
+    margin-top: 50px;
+}
+
+.property p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.6736px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    justify-content: center;
+    color: #666666;
+
+}

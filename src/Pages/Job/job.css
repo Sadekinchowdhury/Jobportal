@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700;800&family=Poppins:wght@400;500;700&display=swap');
+
+.job {
+    position: absolute;
+    width: 1512px;
+    height: 1832px;
+
+}
+
+.job-title h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 80px;
+    /* identical to box height, or 267% */
+
+    text-align: center;
+    justify-content: center;
+    color: #000000;
+
+}
+
+.apply {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.apply-company h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 40px;
+    /* identical to box height, or 200% */
+    padding: 8px 20px 8px 20px;
+    border: 1px solid #AAAAAA;
+    border-radius: 10px;
+
+}
+
+.apply-job h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 40px;
+    /* identical to box height, or 200% */
+    background: #2A8AE4;
+    border-radius: 10px;
+    padding: 8px 20px 8px 20px;
+    color: #FFFFFF;
+
+}
+
+.job-details {
+    left: 88px;
+    position: absolute;
+}
+
+.job-details p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    /* or 167% */
+
+
+    color: #000000;
+
+}
+
+.job-details span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+
+#description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    /* or 167% */
+    margin-top: 5px;
+
+    color: #000000;
+}
+
+/* .job-description {
+    position: absolute;
+
+}
+
+.job-description p {
+    font-family: 'Poppins';
+} */
+.all-descriptions {
+    position: absolute;
+    width: 1370px;
+    height: 1234px;
+    left: 88px;
+    top: 500px;
+}

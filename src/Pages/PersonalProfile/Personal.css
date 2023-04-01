@@ -1,0 +1,597 @@
+.personal-profile {
+    position: relative;
+    width: 1600px;
+    height: 1546px;
+
+    background: #FFFFFF;
+    /* Card Shadow light */
+
+    box-shadow: 3px 9px 18px -10px rgba(0, 0, 0, 0.5);
+}
+
+.personal-information {
+    position: absolute;
+    width: 565px;
+    height: 1204px;
+    left: 30px;
+    top: 58px;
+}
+
+.profile {
+    position: absolute;
+    width: 300px;
+    height: 378px;
+    left: 126px;
+    top: 20px;
+
+
+}
+
+.profile img {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 20.63%;
+
+    background: url(.png), url(.png), url(.png), url(.png);
+    /* Card Shadow light */
+
+    box-shadow: 3px 9px 18px -10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.profile-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+
+    position: absolute;
+    width: 175px;
+    height: 71px;
+    left: 50px;
+    top: 376px;
+}
+
+.profile-name #name {
+    width: 68px;
+    height: 28px;
+
+    /* Subheading */
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    /* text / subtle */
+
+    color: #8C8CA1;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.profile-name #profilename {
+    width: 175px;
+    height: 36px;
+
+    /* Heading */
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height, or 120% */
+
+
+    /* text / primary */
+
+    color: #3E3E3E;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.age {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 14px;
+
+    position: absolute;
+    width: 180px;
+    height: 78px;
+    left: 50px;
+    top: 507px;
+}
+
+.age #aged {
+    width: 43px;
+    height: 28px;
+
+    /* Subheading */
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    /* text / subtle */
+
+    color: #8C8CA1;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.age #years {
+    width: 180px;
+    height: 36px;
+
+    /* Heading */
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height, or 120% */
+
+
+    /* text / primary */
+
+    color: #3E3E3E;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.occupation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 14px;
+
+    position: absolute;
+    width: 118px;
+    height: 78px;
+    left: 50px;
+    top: 638px;
+}
+
+#education {
+    width: 118px;
+    height: 28px;
+
+    /* Subheading */
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    /* text / subtle */
+
+    color: #8C8CA1;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#btech {
+    width: 99px;
+    height: 36px;
+
+    /* Heading */
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height, or 120% */
+
+
+    /* text / primary */
+
+    color: #3E3E3E;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.hobby {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 185px;
+    height: 80px;
+    left: 50px;
+    top: 769px;
+
+
+}
+
+#skill {
+    width: 64px;
+    height: 28px;
+
+    /* Subheading */
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    /* Text/Subtle */
+
+    color: #8C8CA1;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#react {
+    width: 185px;
+    height: 36px;
+
+    /* Heading */
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height, or 120% */
+
+
+    /* text / primary */
+
+    color: #3E3E3E;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.quotes {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 74.67%;
+    bottom: 0%;
+
+    /* bg/green-blue dark */
+
+    background: linear-gradient(107.1deg, #4CA034 13.8%, #006DAF 88.73%);
+    /* Card Shadow light */
+
+    box-shadow: 3px 9px 18px -10px rgba(0, 0, 0, 0.5);
+}
+
+#text {
+    position: absolute;
+    height: 205px;
+    left: 13.1%;
+    right: 13.1%;
+    top: calc(50% - 205px/2);
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    /* White */
+
+    color: #FFFFFF;
+
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 32px;
+
+    position: absolute;
+    width: 831px;
+    height: 468px;
+    left: 667px;
+    top: 84px;
+
+    /* bg / light */
+
+    background: #F7F7F7;
+}
+
+.para {
+    width: 111px;
+    height: 28px;
+
+    /* Bold */
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+
+    /* text / primary */
+
+    color: #3E3E3E;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.about .abouteme {
+    width: 771px;
+    height: 216px;
+
+    /* Body */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+
+
+    /* text / primary */
+
+    color: #3E3E3E;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.goal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 30px 30px;
+    gap: 8px;
+
+    position: absolute;
+    width: 822px;
+    height: 206px;
+    left: 667px;
+    top: 584px;
+
+}
+
+.challenge {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 30px 30px;
+    gap: 8px;
+
+    position: absolute;
+    width: 831px;
+    height: 102px;
+    left: 667px;
+    top: 822px;
+
+}
+
+.challenge-text {
+    width: 194px;
+    height: 28px;
+
+    /* Bold */
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+
+    /* text / primary */
+
+    color: #3E3E3E;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.experience {
+    width: 194px;
+    height: 28px;
+
+    /* Bold */
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+
+    /* text / primary */
+
+    color: #3E3E3E;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.experience-para {
+    width: 771px;
+    height: 36px;
+
+    /* Body */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+
+    /* text / primary */
+
+    color: #3E3E3E;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.concern {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 30px 30px;
+    gap: 8px;
+
+    position: absolute;
+    width: 822px;
+    height: 314px;
+    left: 667px;
+    top: 956px;
+}
+
+.motivation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 30px 30px;
+    gap: 8px;
+
+    position: absolute;
+    width: 831px;
+    height: 138px;
+    left: 667px;
+    top: 1302px;
+
+}
+
+.motivation-title {
+    width: 193px;
+    height: 28px;
+
+    /* Bold */
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+
+    /* text / primary */
+
+    color: #3E3E3E;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.motivationdescritption {
+
+    width: 771px;
+    height: 72px;
+
+    /* Body */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+
+
+    /* text / primary */
+
+    color: #3E3E3E;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
