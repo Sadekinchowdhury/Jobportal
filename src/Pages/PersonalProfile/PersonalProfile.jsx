@@ -6,13 +6,13 @@ const PersonalProfile = () => {
             <div className='personal-information'>
                 <div className='profile'>
 
-                    <img className='' src="https://img.freepik.com/premium-photo/asian-handsome-man-with-mustache-smiling-laughing-white-background-soft-focus-blurry_33718-815.jpg?w=740" alt="" />
+                    <img className='w-40 h-40 rounded-full' src="https://img.freepik.com/premium-photo/asian-handsome-man-with-mustache-smiling-laughing-white-background-soft-focus-blurry_33718-815.jpg?w=740" alt="" />
 
 
                 </div>
                 <div className='profile-name'>
-                    <h1 id='name'>Name</h1>
-                    <p id='profilename'>Fabian Laby</p>
+                    <h1 >Name</h1>
+                    <h2 >Fabian Laby</h2>
                 </div>
                 <div className='age'>
                     <p id='aged'>Age</p>
@@ -40,15 +40,15 @@ const PersonalProfile = () => {
             <div>
 
                 <div className='about'>
-                    <p className='para'>About me</p>
-                    <p className='aboutme'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, quasi dolorum. Nostrum impedit dicta dolorem excepturi modi sequi eveniet fugit minima enim necessitatibus ullam, explicabo quam consequatur doloribus fugiat, molestias iure. Facilis laboriosam a quo est nam distinctio vero quidem.</p>
+                    <p className='all'>About me</p>
+                    <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, quasi dolorum. Nostrum impedit dicta dolorem excepturi modi sequi eveniet fugit minima enim necessitatibus ullam, explicabo quam consequatur doloribus fugiat, molestias iure. Facilis laboriosam a quo est nam distinctio vero quidem.</p>
 
-                    <p className='para'>Goal</p>
-                    <p className='aboutme'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam delectus dolorum amet asperiores? Tenetur sunt quibusdam quos dolores ut praesentium adipisci mollitia exercitationem repudiandae ratione dolorem, doloribus quas temporibus officiis.</p>
+                    <h1 className='all'>Goal</h1>
+                    <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam delectus dolorum amet asperiores? Tenetur sunt quibusdam quos dolores ut praesentium adipisci mollitia exercitationem repudiandae ratione dolorem, doloribus quas temporibus officiis.</p>
                 </div>
 
                 <div className='goal'>
-                    <p className='para'>Education</p>
+                    <h1 className='all'>Education</h1>
                     <p className=''>
                         <li>Get clear overview of nutritional informatiom for his meals;</li>
                         <li>Set diet goals;</li>
@@ -60,13 +60,14 @@ const PersonalProfile = () => {
                 </div>
 
                 <div className='challenge'>
-                    <p className='challenge-text'>Work Experience</p>
-                    <p className=''>Build muscle mass and gain weight.</p>
+                    <h1 >Work Experience</h1>
+                    <p >Build muscle mass and gain weight.</p>
 
                 </div>
+
                 <div className='concern'>
-                    <p className='experience'>Project</p>
-                    <p className=''> <li>It is not easy to make informed decisions as you need to crunch a lot of numbers: calories intake, macronutrients ratio, nutritional value.</li>
+                    <h1>Project</h1>
+                    <p> <li>It is not easy to make informed decisions as you need to crunch a lot of numbers: calories intake, macronutrients ratio, nutritional value.</li>
                         <li>
                             It takes time to achieve significant results and sticking to a healthy lifestyle plan.
                         </li>
@@ -76,7 +77,7 @@ const PersonalProfile = () => {
                     </p>
                 </div>
                 <div className='motivation'>
-                    <p className='motivation-title'>Skill and others</p>
+                    <h1>Skill and others</h1>
                     <p className=''>
                         He aspires to achieve a good physique through exercise and wants to challenge himself with a marathon scheduled for next year.
                     </p>

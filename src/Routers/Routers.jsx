@@ -11,7 +11,7 @@ const Routes = createBrowserRouter([
         children: [
 
             {
-                path: '/personalProfile',
+                path: '/',
                 element: <PersonalProfile></PersonalProfile>
             },
             {

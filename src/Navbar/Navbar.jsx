@@ -27,7 +27,7 @@ const Navbar = () => {
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         <li className='font-semibold'>
-                            <Link to='/personalProfile'>Personal Profile</Link>
+                            <Link to='/'>Personal Profile</Link>
                             <Link to='/companyProfile'>Company Profile</Link>
                             <Link to='/job'>Job</Link>
                         </li>

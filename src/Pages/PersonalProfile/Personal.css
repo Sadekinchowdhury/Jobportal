@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700;800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,300&display=swap');
+
 .personal-profile {
     position: relative;
     width: 1600px;
@@ -28,7 +30,8 @@
 }
 
 .profile img {
-    position: absolute;
+
+
     left: 0%;
     right: 0%;
     top: 0%;
@@ -43,11 +46,6 @@
 
 
 .profile-name {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 15px;
 
     position: absolute;
     width: 175px;
@@ -56,13 +54,10 @@
     top: 376px;
 }
 
-.profile-name #name {
-    width: 68px;
-    height: 28px;
+.profile-name h1 {
 
-    /* Subheading */
 
-    font-family: 'Work Sans';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -80,13 +75,13 @@
     flex-grow: 0;
 }
 
-.profile-name #profilename {
+.profile-name h2 {
     width: 175px;
     height: 36px;
 
     /* Heading */
 
-    font-family: 'Work Sans';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -104,6 +99,31 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+}
+
+.profile-name p {
+
+    /* Heading */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height, or 120% */
+
+
+    /* text / primary */
+
+    color: #3E3E3E;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
 }
 
 .age {
@@ -126,7 +146,7 @@
 
     /* Subheading */
 
-    font-family: 'Work Sans';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -150,7 +170,7 @@
 
     /* Heading */
 
-    font-family: 'Work Sans';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -190,7 +210,7 @@
 
     /* Subheading */
 
-    font-family: 'Work Sans';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -214,7 +234,7 @@
 
     /* Heading */
 
-    font-family: 'Work Sans';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -258,7 +278,7 @@
 
     /* Subheading */
 
-    font-family: 'Work Sans';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -282,7 +302,7 @@
 
     /* Heading */
 
-    font-family: 'Work Sans';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -324,7 +344,7 @@
     right: 13.1%;
     top: calc(50% - 205px/2);
 
-    font-family: 'Work Sans';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -358,13 +378,26 @@
     background: #F7F7F7;
 }
 
-.para {
-    width: 111px;
+
+
+
+
+.goal {
+    position: absolute;
+    width: 822px;
+    height: 206px;
+    left: 667px;
+    top: 584px;
+
+}
+
+.all {
+    width: 115px;
     height: 28px;
 
     /* Bold */
 
-    font-family: 'Work Sans';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -375,61 +408,15 @@
 
     color: #3E3E3E;
 
+
     /* Inside auto layout */
 
     flex: none;
     order: 0;
     flex-grow: 0;
-
-}
-
-.about .abouteme {
-    width: 771px;
-    height: 216px;
-
-    /* Body */
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
-    /* or 150% */
-
-
-    /* text / primary */
-
-    color: #3E3E3E;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-.goal {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px 30px 30px;
-    gap: 8px;
-
-    position: absolute;
-    width: 822px;
-    height: 206px;
-    left: 667px;
-    top: 584px;
-
 }
 
 .challenge {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px 30px 30px;
-    gap: 8px;
 
     position: absolute;
     width: 831px;
@@ -439,13 +426,8 @@
 
 }
 
-.challenge-text {
-    width: 194px;
-    height: 28px;
-
-    /* Bold */
-
-    font-family: 'Work Sans';
+.challenge h1 {
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -464,63 +446,11 @@
     flex-grow: 0;
 }
 
-.experience {
-    width: 194px;
-    height: 28px;
-
-    /* Bold */
-
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    letter-spacing: -0.02em;
-
-    /* text / primary */
-
-    color: #3E3E3E;
 
 
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.experience-para {
-    width: 771px;
-    height: 36px;
-
-    /* Body */
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
-    /* identical to box height, or 150% */
-
-
-    /* text / primary */
-
-    color: #3E3E3E;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
 
 .concern {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px 30px 30px;
-    gap: 8px;
+
 
     position: absolute;
     width: 822px;
@@ -529,12 +459,33 @@
     top: 956px;
 }
 
+.concern h1 {
+
+    width: 95px;
+    height: 28px;
+
+    /* Bold */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+
+    /* text / primary */
+
+    color: #3E3E3E;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
 .motivation {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px 30px 30px;
-    gap: 8px;
 
     position: absolute;
     width: 831px;
@@ -544,13 +495,13 @@
 
 }
 
-.motivation-title {
+.motivation h1 {
     width: 193px;
     height: 28px;
 
     /* Bold */
 
-    font-family: 'Work Sans';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
